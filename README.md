@@ -166,6 +166,8 @@
   Feito com 💻 e ☕ por Samyr
 </p>
 
+###
+
 <img src="https://raw.githubusercontent.com/Samyr-Dev/Samyr-Dev/output/snake.svg" alt="Snake animation" />
 
----
+###
