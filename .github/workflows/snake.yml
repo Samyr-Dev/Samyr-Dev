@@ -1,33 +1,26 @@
-name: Generate Snake
+name: generate-snake
 
 on:
   schedule:
-    - cron: "0 */24 * * *" # roda 1x por dia
+    - cron: "0 0 * * *"   # roda 1x por dia (meia-noite UTC)
   workflow_dispatch:       # permite rodar manualmente
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Generate Snake SVG
-        uses: Platane/snk@v3
+      - name: Generate Snake
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Samyr-Dev
           outputs: dist/snake.svg
 
-      - name: Deploy to output branch
-        run: |
-          mkdir -p dist
-          cp dist/snake.svg snake.svg
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git fetch origin
-          git switch --orphan output
-          git reset --hard
-          mv snake.svg ./snake.svg
-          git add snake.svg
-          git commit -m "Generate snake.svg"
-          git push --force origin output
+      - name: Deploy snake.svg to output branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: dist
