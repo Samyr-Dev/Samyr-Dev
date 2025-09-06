@@ -2,11 +2,8 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */24 * * *"
-  workflow_dispatch:
-  push:
-    branches:
-      - main
+    - cron: "0 */24 * * *" # roda 1x por dia
+  workflow_dispatch:       # permite rodar manualmente
 
 jobs:
   build:
@@ -21,13 +18,16 @@ jobs:
           github_user_name: Samyr-Dev
           outputs: dist/snake.svg
 
-      - name: Push snake.svg to output branch
+      - name: Deploy to output branch
         run: |
+          mkdir -p dist
+          cp dist/snake.svg snake.svg
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git checkout --orphan output
-          git reset
-          mv dist/snake.svg .
+          git fetch origin
+          git switch --orphan output
+          git reset --hard
+          mv snake.svg ./snake.svg
           git add snake.svg
           git commit -m "Generate snake.svg"
           git push --force origin output
