@@ -122,6 +122,30 @@
   width="30px" 
   style="padding-right: 10px;"
   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg" />
+
+<img
+  align="left" 
+  alt="github logo"
+  title="GitHub" 
+  width="30px" 
+  style="padding-right: 10px;"
+  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+
+  <img
+  align="left" 
+  alt="latex logo"
+  title="Latex" 
+  width="30px" 
+  style="padding-right: 10px;"
+  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" />
+
+  <img
+  align="left" 
+  alt="linkedin logo"
+  title="Linkedin" 
+  width="30px" 
+  style="padding-right: 10px;"
+  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />
           
 
 <img
@@ -134,25 +158,11 @@
           
 ---
 
-
-### 📂 Meus principais projetos
-
-...
-
-
----
-
 ### 🎓 Formação
 
 - 📘 Curso: [Engenharia de Software]
 - 🏫 Instituição: [Centro Universitário Alfredo Nascer]
 - 📅 Período: [2024] — [2027]
-
----
-
-### 📜 Certificações
-
-...
 
 ---
 
