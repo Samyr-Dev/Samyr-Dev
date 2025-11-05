@@ -1,7 +1,7 @@
 
 # Samyr Silva Tertuliano Deusdará
 
-## **Desenvolvedor BackEnd**
+## **Desenvolvedor em formação**
 
 🎓 Samyr Silva Tertuliano Deusdará -  19 anos  
 📍 Goiânia - GO | 4º período de Engenharia de Software  
