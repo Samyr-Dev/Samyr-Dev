@@ -3,8 +3,8 @@
 
 ## **Analista de Suporte - Desenvolvedor em formação**
 
-🎓 Samyr Silva Tertuliano Deusdará -  19 anos  
-📍 Goiânia - GO | 4º período de Engenharia de Software  
+🎓 Samyr Silva Tertuliano Deusdará -  20 anos  
+📍 Goiânia - GO | 5º período de Engenharia de Software  
 🚀 Buscando aprender, crescer e contribuir em projetos concretos.
 
 ---
