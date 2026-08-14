@@ -1,10 +1,10 @@
 
 # Samyr Silva Tertuliano Deusdará
 
-## **Analista de Suporte - Desenvolvedor em formação**
+## **Desenvolvedor de Software**
 
 🎓 Samyr Silva Tertuliano Deusdará -  20 anos  
-📍 Goiânia - GO | 5º período de Engenharia de Software  
+📍 Goiânia - GO | 6º período de Engenharia de Software  
 🚀 Buscando aprender, crescer e contribuir em projetos concretos.
 
 ---
